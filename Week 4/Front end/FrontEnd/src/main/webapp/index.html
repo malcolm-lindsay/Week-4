@@ -1,0 +1,35 @@
+<html lang="en" dir="ltr">
+  <head>
+      <script type="text/javascript">
+        function getData() {
+          var oReq = new XMLHttpRequest();
+          oReq.open("GET", "localhost:8080/cinema-app2/api/movie/getAllMovies", false);
+          oReq.send();
+
+          console.log(oReq.response());
+
+          console.log(oReq.response());
+          console.log("jkh");
+
+        }
+
+        function getData2() {
+
+          console.log("jkh");
+
+        }
+      </script>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+
+<p>uigyliuh</p>
+<input type = "button" onclick="getData()" />
+
+<input type = "button" onclick="getData2()" />
+
+  </body>
+
+</html>
